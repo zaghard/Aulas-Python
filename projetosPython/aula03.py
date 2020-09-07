@@ -1,6 +1,7 @@
 #Condicionais: IF- ELSE - ELIF
 # operadores lógicos: AND - OR - NOT
 
+#<-------------------------------------------------------------------->
 ''' int(input("Primeiro valor: "))
 b = int(input("Segundo valor: "))
 c = int(input('Terceiro valor: '))
@@ -12,7 +13,7 @@ elif b > a and b > c:
 else:
     print('O maior número é: {}'.format(c))
 print("Final do Programa")'''
-
+#<-------------------------------------------------------------------->
 # a = int(input('Entre com um valor: '))
 # b = int(input('Entre com um valor: '))
 # resto_a = a % 2
@@ -23,6 +24,7 @@ print("Final do Programa")'''
 # else:
 #     print('O número é impar')
 # print('Fim do programa')
+#<-------------------------------------------------------------------->
 a = int(input('Primeira avaliação: '))
 if a > 10:
     a = int(input('Você digitou errado...Digite Primeira avaliação: '))
@@ -37,12 +39,12 @@ if d > 10:
     d = int(input('Você digitou errado...Digite Quarta avaliação: '))
 media =(a + b + c + d) / 4
 print('media: {}'.format(media))
-
+#<-------------------------------------------------------------------->
 # if a <= 10 and b <= 10 and c <= 10 and  d <= 10:
 # print('media: {}'.format(media))
 # else:
 #     print('Foi informado nota com valor errado!!!')
-
+#<-------------------------------------------------------------------->
 if media >= 7.0:
     print('O aluno foi aprovado!!!')
 else:
