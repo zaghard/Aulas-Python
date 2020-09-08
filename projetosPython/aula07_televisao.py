@@ -15,18 +15,18 @@ class Televisao:
     def dimini_canal(self):
         if self.ligada:
             self.canal -= 1
+if __name__=='__main__':
 
-
-televisao = Televisao()
-print('Televisao está ligada: "{}"'.format(televisao.ligada))
-televisao.power()
-print('Televisao está ligada: "{}"'.format(televisao.ligada))
-televisao.power()
-print('Televisao está ligada: "{}"'.format(televisao.ligada))
-televisao.power()
-print('Canal:"{}"'.format(televisao.canal))
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-print('Canal:"{}"'.format(televisao.canal))
-televisao.dimini_canal()
-print('Canal:"{}"'.format(televisao.canal))
+    televisao = Televisao()
+    print('Televisao está ligada: "{}"'.format(televisao.ligada))
+    televisao.power()
+    print('Televisao está ligada: "{}"'.format(televisao.ligada))
+    televisao.power()
+    print('Televisao está ligada: "{}"'.format(televisao.ligada))
+    televisao.power()
+    print('Canal:"{}"'.format(televisao.canal))
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    print('Canal:"{}"'.format(televisao.canal))
+    televisao.dimini_canal()
+    print('Canal:"{}"'.format(televisao.canal))

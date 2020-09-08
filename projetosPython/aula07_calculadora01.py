@@ -1,4 +1,4 @@
-class calculadora:
+class Calculadora:
     def __init__(self, num1, num2):
         self.valor_a = num1
         self.valor_b = num2
@@ -14,10 +14,11 @@ class calculadora:
 
     def divisao (self):
         return self.valor_a / self.valor_b
+if __name__  == '__main__':
 
-calculadora = calculadora(10,2)
-print(calculadora.valor_a)
-print(calculadora.soma())
-print(calculadora.subtracao())
-print(calculadora.multiplicacao())
-print(calculadora.divisao())
+    calculadora = calculadora(10,2)
+    print(calculadora.valor_a)
+    print(calculadora.soma())
+    print(calculadora.subtracao())
+    print(calculadora.multiplicacao())
+    print(calculadora.divisao())
