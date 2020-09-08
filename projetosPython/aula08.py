@@ -1,7 +1,7 @@
 #Modulos e funções lambida
 from aula07_televisao import Televisao
-
 from aula07_calculadora01 import Calculadora
+from aula08_pc_palavras import contador_letras
 
 if __name__ == '__main__':
     televisao = Televisao()
@@ -15,3 +15,7 @@ if __name__ == '__main__':
     print(calculadora.subtracao())
     print(calculadora.multiplicacao())
     print(calculadora.divisao())
+
+    lista = ['cachorro', 'gato', 'elefante']
+    total_letras= contador_letras(lista)
+    print('Total de letras por palavra da lista:"{}"'.format(total_letras))
